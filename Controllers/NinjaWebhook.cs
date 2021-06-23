@@ -17,6 +17,7 @@ using Microsoft.Bot.Connector.Authentication;
 using Microsoft.Bot.Connector;
 using Serilog;
 using net.hempux.Utilities;
+using net.hempux.Utilities.Influx;
 
 namespace net.hempux.Controllers
 {
@@ -52,7 +53,8 @@ namespace net.hempux.Controllers
             await CreateChannelConversation(detailedActivity);
             _sqliteEngine.createDashboardIssue(detailedActivity);
             Log.Information("New NinjaRMM activity received (acitivty ID: {id} )", detailedActivity.Id);
-            
+
+            InfluxAPI influxAPI = new InfluxAPI("localhost","","","","","");
             return new ContentResult()
             {
                 Content = JsonConvert.SerializeObject(detailedActivity),

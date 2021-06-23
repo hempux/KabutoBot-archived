@@ -16,6 +16,7 @@ using Microsoft.Bot.Builder.Integration.AspNet.Core;
 using Microsoft.Bot.Schema;
 using Microsoft.Bot.Builder;
 using System.Collections.Concurrent;
+using System;
 
 namespace net.hempux.kabuto
 {
@@ -43,7 +44,7 @@ namespace net.hempux.kabuto
             {
                 Log.Information("Using sqlite file {filename}", AppSettings.Current.SqliteDatabase);
             }
-
+            
             Log.Information("Starting server listening on {AppUrl}", AppSettings.Current.ListenAddress);
 
 
