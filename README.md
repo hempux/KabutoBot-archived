@@ -49,10 +49,10 @@ With the Bot Framework Emulator connected to your running bot, the sample will n
 
 ### Using curl/powershell
 
-- Send a get request to `http://localhost:3978/api/notify` to proactively message users from the bot.
+- Send a get request to `http://localhost:3978/api/ninjawebhook` to proactively message users from the bot.
 
    ```bash
-    curl -X POST --data-binary samplerequests\WebhookDeviceMessage.json http://localhost:3978/api/notify
+    curl -X POST --data-binary samplerequests\WebhookDeviceMessage.json http://localhost:3978/api/ninjawebhook
    ```
 
    ```powershell
