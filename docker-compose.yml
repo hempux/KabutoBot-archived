@@ -1,0 +1,26 @@
+version: '3.4'
+
+services:
+  proactivebot:
+    image: ${DOCKER_REGISTRY-}proactivebot
+    build:
+      context: .
+      dockerfile: Dockerfile
+    environment:
+     # - ASPNETCORE_ENVIRONMENT=Development
+      - ASPNETCORE_URLS=https://+:443;http://+:80
+      - ASPNETCORE_Kestrel__Certificates__Default__Password=fika
+      - ASPNETCORE_Kestrel__Certificates__Default__Path=/https/fikadaxwildcard.pfx
+    ports:
+      - "5001"
+    volumes:
+      - ~/.aspnet/https:/https:ro
+    networks:
+     default:
+      aliases:
+        - proactivebot.fikad.ax 
+networks:
+  default:
+    external: true
+    name: my-testing
+    

@@ -1,0 +1,23 @@
+﻿{
+  "id": 94140,
+  "activityTime": 1620722437,
+  "deviceId": 192,
+  "seriesUid": "6fc7c3c0-f08c-4f0a-9efc-d113a7f81840",
+  "activityType": "CONDITION",
+  "statusCode": "TRIGGERED",
+  "status": "Triggered",
+  "sourceConfigUid": "58d49268-b0eb-4df8-bda3-742a09b76702",
+  "sourceName": "",
+  "subject": "",
+  "message": "System has not rebooted for more than 30 days. Last reboot time: '2020-07-28 13:04:29'",
+  "type": "Condition",
+  "data": {
+    "message": {
+      "code": "agent_win_cond_sys_uptime",
+      "params": {
+        "reboot_days": "30",
+        "reboot_date": "2020-07-28 13:04:29"
+      }
+    }
+  }
+}

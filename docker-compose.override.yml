@@ -1,0 +1,13 @@
+version: '3.4'
+
+services:
+  proactivebot:
+    environment:
+      #- ASPNETCORE_ENVIRONMENT=Development
+      - ASPNETCORE_URLS=https://+:443;http://+:80
+      - ASPNETCORE_Kestrel__Certificates__Default__Password=fika
+      - ASPNETCORE_Kestrel__Certificates__Default__Path=/https/fikadaxwildcard.pfx
+    ports:
+      - "80"
+    volumes:
+      - ~/.aspnet/https:/https:ro

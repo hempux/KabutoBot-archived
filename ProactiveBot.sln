@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31205.134
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProactiveBot", "ProactiveBot.csproj", "{453EE777-074B-452D-A670-62FC8B96F292}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{00B22C42-18EA-43DD-B306-7AB6E8140FCB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{453EE777-074B-452D-A670-62FC8B96F292}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{453EE777-074B-452D-A670-62FC8B96F292}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{453EE777-074B-452D-A670-62FC8B96F292}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{453EE777-074B-452D-A670-62FC8B96F292}.Release|Any CPU.Build.0 = Release|Any CPU
+		{00B22C42-18EA-43DD-B306-7AB6E8140FCB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{00B22C42-18EA-43DD-B306-7AB6E8140FCB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{00B22C42-18EA-43DD-B306-7AB6E8140FCB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{00B22C42-18EA-43DD-B306-7AB6E8140FCB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0020A3AB-FF0E-41AE-95B4-71C2821869B6}
+	EndGlobalSection
+EndGlobal

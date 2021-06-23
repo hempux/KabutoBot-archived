@@ -1,0 +1,170 @@
+﻿{
+  "name": "Bluescreen AB",
+  "id": 3,
+  "locations": [
+    {
+      "name": "Huvudkontor",
+      "address": "Returvägen 1, Västerås",
+      "description": "",
+      "id": 4
+    }
+  ],
+  "policies": [
+    {
+      "nodeRoleId": 31,
+      "policyId": 30
+    },
+    {
+      "nodeRoleId": 3,
+      "policyId": 3
+    },
+    {
+      "nodeRoleId": 203,
+      "policyId": 3
+    },
+    {
+      "nodeRoleId": 204,
+      "policyId": 3
+    },
+    {
+      "nodeRoleId": 21,
+      "policyId": 28
+    },
+    {
+      "nodeRoleId": 4,
+      "policyId": 4
+    },
+    {
+      "nodeRoleId": 205,
+      "policyId": 4
+    },
+    {
+      "nodeRoleId": 206,
+      "policyId": 4
+    },
+    {
+      "nodeRoleId": 22,
+      "policyId": 29
+    },
+    {
+      "nodeRoleId": 112,
+      "policyId": 20
+    },
+    {
+      "nodeRoleId": 110,
+      "policyId": 18
+    },
+    {
+      "nodeRoleId": 107,
+      "policyId": 15
+    },
+    {
+      "nodeRoleId": 103,
+      "policyId": 11
+    },
+    {
+      "nodeRoleId": 109,
+      "policyId": 17
+    },
+    {
+      "nodeRoleId": 117,
+      "policyId": 25
+    },
+    {
+      "nodeRoleId": 113,
+      "policyId": 21
+    },
+    {
+      "nodeRoleId": 115,
+      "policyId": 23
+    },
+    {
+      "nodeRoleId": 105,
+      "policyId": 13
+    },
+    {
+      "nodeRoleId": 104,
+      "policyId": 12
+    },
+    {
+      "nodeRoleId": 102,
+      "policyId": 10
+    },
+    {
+      "nodeRoleId": 106,
+      "policyId": 14
+    },
+    {
+      "nodeRoleId": 114,
+      "policyId": 22
+    },
+    {
+      "nodeRoleId": 101,
+      "policyId": 9
+    },
+    {
+      "nodeRoleId": 116,
+      "policyId": 24
+    },
+    {
+      "nodeRoleId": 111,
+      "policyId": 19
+    },
+    {
+      "nodeRoleId": 108,
+      "policyId": 16
+    },
+    {
+      "nodeRoleId": 10,
+      "policyId": 27
+    },
+    {
+      "nodeRoleId": 9,
+      "policyId": 26
+    },
+    {
+      "nodeRoleId": 201,
+      "policyId": 36
+    },
+    {
+      "nodeRoleId": 202,
+      "policyId": 36
+    },
+    {
+      "nodeRoleId": 1,
+      "policyId": 1
+    },
+    {
+      "nodeRoleId": 2,
+      "policyId": 2
+    },
+    {
+      "nodeRoleId": 11,
+      "policyId": 42
+    },
+    {
+      "nodeRoleId": 12,
+      "policyId": 43
+    }
+  ],
+  "settings": {
+    "trayicon": {
+      "enabled": true
+    },
+    "splashtop": {
+      "enabled": false
+    },
+    "teamviewer": {
+      "product": "REACH",
+      "enabled": true,
+      "targets": [
+        "WINDOWS_SERVER",
+        "WINDOWS_WORKSTATION",
+        "MAC"
+      ]
+    },
+    "psa": {
+      "enabled": true
+    }
+  }
+}

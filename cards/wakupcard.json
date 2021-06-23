@@ -1,0 +1,31 @@
+{"actions": [
+  {
+    "type": "Action.ShowCard",
+    "title": "Text",
+    "card": {
+      "type": "AdaptiveCard",
+      "body": [
+        {
+          "type": "Input.Text",
+          "id": "text",
+          "isMultiline": true,
+          "placeholder": "Enter your comment"
+        }
+      ],
+      "actions": [
+        {
+          "type": "Action.Submit",
+          "title": "OK"
+        },
+        {
+    "type": "invoke",
+    "title": "Option 1",
+    "value": {
+        "option": "opt1"
+    }
+}
+      ]
+    }
+  }
+]
+}

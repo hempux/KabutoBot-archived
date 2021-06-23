@@ -1,0 +1,23 @@
+﻿{
+  "applicationUrl": "http://localhost:3978",
+  "Logging": {
+    "LogLevel": {
+      "Default": "Warning",
+      "System": "Warning",
+      "Microsoft": "Warning"
+    }
+  },
+  "MicrosoftAppId": "Bot AppId",
+  "MicrosoftAppPassword": "Bot AppPassword",
+  "MicrosoftBotId": "Botname",
+  "Ninja": {
+    "AccessKey": "NinjaApi-AccessKey",
+    "SecretKey": "NinjaApi-AccessSecret",
+    "ApiHost": "https://eu-api.ninjarmm.com or https://api.ninjarmm.com"
+  },
+  "SqliteDatabase": "botdata.db",
+  "Teams": {
+    "MicrosoftServiceURL": "serviceurl from bot message",
+    "TeamsChannel": "Channel ID from bot message"
+  }
+}

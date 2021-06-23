@@ -1,0 +1,150 @@
+{
+      "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+      "type": "AdaptiveCard",
+      "version": "1.0",
+      "body": [
+        {
+          "type": "Container",
+          "items": [
+            {
+              "type": "TextBlock",
+              "text": "This is a ninja info card",
+              "weight": "bolder",
+              "size": "medium"
+            },
+            {
+              "type": "ColumnSet",
+              "columns": [
+                {
+                  "type": "Column",
+                  "width": "auto",
+                  "items": [
+                    {
+                      "type": "Image",
+                      "url": "https://dev.fikad.ax/a-dogepng.png",
+                      "size": "small",
+                      "style": "person"
+                    }
+                  ]
+                },
+                {
+                  "type": "Column",
+                  "width": "stretch",
+                  "items": [
+                    {
+                      "type": "TextBlock",
+                      "text": "PH_DISPLAY_NAME",
+                      "weight": "bolder",
+                      "wrap": true
+                    },
+                    {
+                      "type": "TextBlock",
+                      "spacing": "none",
+                      "text": "Triggered PH_DATETIMENOW",
+                      "isSubtle": true,
+                      "wrap": true
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "Container",
+          "items": [
+            {
+              "type": "TextBlock",
+              "text": "PH_MESSAGE",
+              "wrap": true
+            },
+            {
+              "type": "FactSet",
+              "facts": [
+                {
+                  "title": "Board:",
+                  "value": "Adaptive Card"
+                },
+                {
+                  "title": "Status:",
+                  "value": "PH_STATUS"
+                },
+                {
+                  "title": "Belongs to:",
+                  "value": "PH_ORGNAME"
+                },
+                {
+                  "title": "Computer name:",
+                  "value": "PH_COMPUTER_NAME"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": "Action.ShowCard",
+          "title": "Set due date",
+          "card": {
+            "type": "AdaptiveCard",
+            "body": [
+              {
+                "type": "Input.Date",
+                "id": "dueDate"
+              }
+            ],
+            "actions": [
+              {
+                "type": "Action.Submit",
+                "title": "OK"
+              }
+            ]
+          }
+        },
+        {
+          "type": "Action.Submit",
+          "title": "Comment",
+          "card": {
+            "type": "AdaptiveCard",
+            "body": [
+              {
+                "type": "Input.Text",
+                "id": "comment",
+                "isMultiline": true,
+                "placeholder": "Enter your comment"
+              }
+            ],
+            "actions": [
+              {
+                "type": "Action.Submit",
+                "title": "OK"
+              }
+            ]
+          }
+        },
+        {
+          "type": "Action.Submit",
+          "title": "React",
+          "data": {
+            "msteams": {
+              "type": "messageBack",
+              "displayText": "I clicked the button",
+              "text": "text to bots/You clicked the button",
+              "value": "{\"bfKey\": \"bfVal\", \"conflictKey\": \"from value\"}"
+            }
+          }
+        },
+        {
+          "type": "Action.Submit",
+          "title": "submit",
+          "data": {
+            "msteams": {
+              "type": "task/fetch"
+            },
+            "Value1": "some value"
+          }
+        }
+        
+      ]
+    } 

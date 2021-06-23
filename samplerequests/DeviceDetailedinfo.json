@@ -1,0 +1,90 @@
+﻿[
+  {
+    "id": 192,
+    "organizationId": 3,
+    "locationId": 4,
+    "nodeClass": "WINDOWS_SERVER",
+    "nodeRoleId": 1,
+    "rolePolicyId": 1,
+    "approvalStatus": "APPROVED",
+    "offline": false,
+    "systemName": "HYPERV1",
+    "dnsName": "HyperV1.aad.bluescreen.se",
+    "created": 1617029236.201,
+    "lastContact": 1620760142.95,
+    "lastUpdate": 1620760142,
+    "ipAddresses": [
+      "192.168.30.77",
+      "fe80::dc87:d522:60ff:7e7"
+    ],
+    "macAddresses": [
+      "08:60:6E:46:C7:4D"
+    ],
+    "publicIP": "31.208.68.170",
+    "os": {
+      "manufacturer": "Microsoft Corporation",
+      "name": "Windows Server 2012 R2",
+      "architecture": "64-bit",
+      "lastBootTime": 1595941490,
+      "buildNumber": "9600",
+      "releaseId": "",
+      "servicePackMajorVersion": 0,
+      "servicePackMinorVersion": 0,
+      "locale": "sv-SE",
+      "language": "Swedish",
+      "needsReboot": false
+    },
+    "system": {
+      "name": "HYPERV1",
+      "manufacturer": "System manufacturer",
+      "model": "System Product Name",
+      "biosSerialNumber": "System Serial Number",
+      "serialNumber": "Chassis Serial Number",
+      "domain": "BLUESCREEN",
+      "domainRole": "Member Server",
+      "numberOfProcessors": 1,
+      "totalPhysicalMemory": 34033238016,
+      "virtualMachine": false,
+      "chassisType": "DESKTOP"
+    },
+    "memory": {
+      "capacity": 34033238016
+    },
+    "processors": [
+      {
+        "architecture": "x64",
+        "maxClockSpeed": 3392000000,
+        "clockSpeed": 3392000000,
+        "name": "Intel(R) Core(TM) i5-3570K CPU @ 3.40GHz",
+        "numCores": 4,
+        "numLogicalCores": 4
+      }
+    ],
+    "volumes": [
+      {
+        "name": "D:",
+        "label": "VM-Storage",
+        "deviceType": "Local Disk",
+        "fileSystem": "NTFS",
+        "autoMount": false,
+        "compressed": false,
+        "capacity": 2116208812032,
+        "freeSpace": 456130174976,
+        "serialNumber": "32C8DD60"
+      },
+      {
+        "name": "C:",
+        "label": "",
+        "deviceType": "Local Disk",
+        "fileSystem": "NTFS",
+        "autoMount": false,
+        "compressed": false,
+        "capacity": 119479988224,
+        "freeSpace": 47971688448,
+        "serialNumber": "E238E6DA"
+      }
+    ],
+    "lastLoggedInUser": "BLUESCREEN\\Administratör",
+    "deviceType": "AgentDevice"
+  }
+]
